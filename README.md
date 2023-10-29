@@ -8,7 +8,10 @@
         <dubbo.version>3.0.4</dubbo.version>
 ```
 
-## SpringBoot整合Dubbo和Nacos注册中心
+## SpringBoot整合Dubbo和Nacos注册中心 
+
+##  ***开箱即用Demo***
+
 - 使用Spring Boot框架来实现Dubbo和Nacos注册中心的整合。Dubbo是阿里巴巴开源的高性能RPC框架，而Nacos是一个动态服务发现和配置管理平台。
 
 - 对于提供者（服务的提供方），我们需要指定服务接口、服务实现类和Dubbo的服务导出配置。这样，我们的服务将会被发布到Dubbo注册中心，供消费者使用。
