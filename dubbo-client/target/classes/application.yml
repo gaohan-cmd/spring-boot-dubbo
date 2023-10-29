@@ -1,0 +1,10 @@
+server:
+  port: 9091
+
+dubbo:
+  application:
+    name: dubbo-client
+  registry:
+    address: 'nacos://127.0.0.1:8848'
+  scan:
+    basePackages: 'com.ghan.dubbo.impl'
